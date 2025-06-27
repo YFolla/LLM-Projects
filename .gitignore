@@ -88,4 +88,11 @@ generated_*.jpg
 *api_key*
 *secret*
 *token*
-!requirements.txt 
+!requirements.txt
+
+# Vector databases and embeddings
+vector_db/
+*.db
+*.sqlite3
+chromadb/
+embeddings/ 
