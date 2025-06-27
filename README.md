@@ -17,6 +17,7 @@ A comprehensive collection of practical Large Language Model applications built 
 | **09 - Multimodal Chatbot** | Advanced chatbot with voice, image, and flight capabilities | Python, OpenAI API, Whisper, DALL-E, Amadeus SDK | Voice transcription, image generation, multimodal interaction |
 | **10 - Meeting Minutes Generator** | Automated meeting transcription and summarization | Python, OpenAI API, Audio processing | Meeting automation, transcription, summary generation |
 | **11 - Code Converter** | Python to C++ code conversion with compilation | Python, Anthropic Claude, CodeQwen, Gradio, C++ compilation | Code translation, performance optimization, cross-platform compilation |
+| **12 - RAG Pipeline** | Retrieval-Augmented Generation system with knowledge base | Python, LangChain, OpenAI API, ChromaDB, Gradio | Document retrieval, conversational memory, knowledge base querying |
 
 ## 🛠️ **Technology Stack**
 
@@ -26,6 +27,7 @@ A comprehensive collection of practical Large Language Model applications built 
 - **Anthropic Claude** - Advanced code generation
 - **Gradio** - Web-based user interfaces
 - **Hugging Face** - Model hosting and inference
+- **LangChain** - RAG pipelines and document processing
 
 ### **Specialized Libraries**
 - **Web Scraping**: BeautifulSoup4, Playwright, Requests
@@ -33,6 +35,7 @@ A comprehensive collection of practical Large Language Model applications built 
 - **Image Generation**: DALL-E 3, PIL, Base64 encoding
 - **Travel APIs**: Amadeus SDK for flight data
 - **Local LLMs**: Ollama integration
+- **RAG & Vector Stores**: LangChain, ChromaDB, Document loaders
 - **Compilation**: Subprocess, Platform detection, C++ toolchain
 
 ### **Development Tools**
@@ -101,11 +104,17 @@ python 11_code_coverter.py
 - **Code Translation**: Python to C++ with optimization and compilation
 - **Use Cases**: Business automation, performance optimization, cross-platform development
 
+### **🔍 Knowledge Management (12)**
+- **RAG Pipeline**: Retrieval-Augmented Generation with document knowledge base
+- **Technologies**: LangChain, ChromaDB, OpenAI embeddings, conversational memory
+- **Use Cases**: Document Q&A, knowledge base querying, enterprise search, intelligent assistance
+
 ## 🔧 **Technical Highlights**
 
 ### **Advanced Features**
 - **Multimodal Processing**: Text, voice, and image integration
 - **Real-time Data**: Live flight information and pricing
+- **RAG Systems**: Document retrieval with conversational memory
 - **Code Compilation**: Cross-platform C++ compilation with optimization
 - **Async Processing**: Efficient handling of concurrent operations
 - **Error Handling**: Robust error management and user feedback
@@ -113,6 +122,7 @@ python 11_code_coverter.py
 ### **Performance Optimizations**
 - **Compiler Detection**: Automatic toolchain detection (GCC, Clang++, MSVC)
 - **Platform Support**: Windows, macOS (Intel/Apple Silicon), Linux
+- **Vector Embeddings**: Efficient document chunking and similarity search
 - **Model Comparison**: Claude vs CodeQwen performance analysis
 - **Optimization Flags**: M1/M2 specific compiler optimizations
 
@@ -120,8 +130,9 @@ python 11_code_coverter.py
 
 This collection demonstrates proficiency in:
 - **LLM Integration**: Multiple AI providers and models
+- **RAG Architecture**: Document processing, embeddings, and retrieval
 - **Full-Stack Development**: Backend logic with frontend interfaces
-- **API Management**: RESTful services and SDK integration
+- **API Management**: RESTful services and SDK management
 - **Cross-Platform Development**: Multi-OS compatibility
 - **Performance Engineering**: Code optimization and compilation
 - **User Experience**: Intuitive interfaces and error handling
