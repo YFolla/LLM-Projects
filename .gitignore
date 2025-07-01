@@ -95,4 +95,16 @@ vector_db/
 *.db
 *.sqlite3
 chromadb/
-embeddings/ 
+embeddings/
+
+# Fine-tuning and ML training files
+*.pkl
+*.pickle
+wandb/
+fine_tune_*.jsonl
+*.jsonl
+
+# Large model files
+*.bin
+*.safetensors
+*.h5 

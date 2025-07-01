@@ -18,6 +18,7 @@ A comprehensive collection of practical Large Language Model applications built 
 | **10 - Meeting Minutes Generator** | Automated meeting transcription and summarization | Python, OpenAI API, Audio processing | Meeting automation, transcription, summary generation |
 | **11 - Code Converter** | Python to C++ code conversion with compilation | Python, Anthropic Claude, CodeQwen, Gradio, C++ compilation | Code translation, performance optimization, cross-platform compilation |
 | **12 - RAG Pipeline** | Retrieval-Augmented Generation system with knowledge base | Python, LangChain, OpenAI API, ChromaDB, Gradio | Document retrieval, conversational memory, knowledge base querying |
+| **13 - Frontier Fine-tuning** | GPT-4o-mini fine-tuning for price estimation | Python, OpenAI API, W&B, HuggingFace | Custom model training, price prediction, experiment tracking |
 
 ## 🛠️ **Technology Stack**
 
@@ -37,11 +38,13 @@ A comprehensive collection of practical Large Language Model applications built 
 - **Local LLMs**: Ollama integration
 - **RAG & Vector Stores**: LangChain, ChromaDB, Document loaders
 - **Compilation**: Subprocess, Platform detection, C++ toolchain
+- **Model Training**: OpenAI Fine-tuning API, Weights & Biases
 
 ### **Development Tools**
 - **Environment Management**: python-dotenv, Conda
 - **API Integration**: REST APIs, SDK management
 - **UI Framework**: Gradio for rapid prototyping
+- **Experiment Tracking**: Weights & Biases (W&B)
 - **Version Control**: Git, GitHub
 
 ## 🚀 **Quick Start**
@@ -70,6 +73,9 @@ HF_TOKEN=your_hugging_face_token_here
 # Amadeus API Credentials (for flight projects)
 AMADEUS_API_KEY=your_amadeus_api_key_here
 AMADEUS_API_SECRET=your_amadeus_api_secret_here
+
+# Weights & Biases API Key (for fine-tuning projects)
+WANDB_API_KEY=your_wandb_api_key_here
 ```
 
 ### **Running Projects**
@@ -108,6 +114,12 @@ python 11_code_coverter.py
 - **RAG Pipeline**: Retrieval-Augmented Generation with document knowledge base
 - **Technologies**: LangChain, ChromaDB, OpenAI embeddings, conversational memory
 - **Use Cases**: Document Q&A, knowledge base querying, enterprise search, intelligent assistance
+
+### **🎯 Model Training & Fine-tuning (13)**
+- **Frontier Fine-tuning**: Custom GPT-4o-mini training for specialized price estimation
+- **Technologies**: OpenAI Fine-tuning API, Weights & Biases, data preprocessing
+- **Features**: JSONL data preparation, experiment tracking, model evaluation, automated testing
+- **Use Cases**: Domain-specific model adaptation, performance optimization, specialized task training
 
 ## 🔧 **Technical Highlights**
 
