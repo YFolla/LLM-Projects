@@ -19,6 +19,7 @@ A comprehensive collection of practical Large Language Model applications built 
 | **11 - Code Converter** | Python to C++ code conversion with compilation | Python, Anthropic Claude, CodeQwen, Gradio, C++ compilation | Code translation, performance optimization, cross-platform compilation |
 | **12 - RAG Pipeline** | Retrieval-Augmented Generation system with knowledge base | Python, LangChain, OpenAI API, ChromaDB, Gradio | Document retrieval, conversational memory, knowledge base querying |
 | **13 - Frontier Fine-tuning** | GPT-4o-mini fine-tuning for price estimation | Python, OpenAI API, W&B, HuggingFace | Custom model training, price prediction, experiment tracking |
+| **14 - Multi-Agent System** | Intelligent deal discovery with ensemble AI agents | Python, OpenAI API, Modal, ChromaDB, Gradio, Scikit-learn | Multi-agent coordination, ensemble modeling, real-time monitoring, automated deal hunting |
 
 ## 🛠️ **Technology Stack**
 
@@ -29,6 +30,7 @@ A comprehensive collection of practical Large Language Model applications built 
 - **Gradio** - Web-based user interfaces
 - **Hugging Face** - Model hosting and inference
 - **LangChain** - RAG pipelines and document processing
+- **Modal** - Cloud deployment for fine-tuned models
 
 ### **Specialized Libraries**
 - **Web Scraping**: BeautifulSoup4, Playwright, Requests
@@ -39,6 +41,8 @@ A comprehensive collection of practical Large Language Model applications built 
 - **RAG & Vector Stores**: LangChain, ChromaDB, Document loaders
 - **Compilation**: Subprocess, Platform detection, C++ toolchain
 - **Model Training**: OpenAI Fine-tuning API, Weights & Biases
+- **Machine Learning**: Scikit-learn, Random Forest, Linear Regression
+- **Multi-Agent Systems**: Agent coordination, ensemble modeling
 
 ### **Development Tools**
 - **Environment Management**: python-dotenv, Conda
@@ -46,6 +50,7 @@ A comprehensive collection of practical Large Language Model applications built 
 - **UI Framework**: Gradio for rapid prototyping
 - **Experiment Tracking**: Weights & Biases (W&B)
 - **Version Control**: Git, GitHub
+- **Cloud Deployment**: Modal for scalable inference
 
 ## 🚀 **Quick Start**
 
@@ -76,6 +81,10 @@ AMADEUS_API_SECRET=your_amadeus_api_secret_here
 
 # Weights & Biases API Key (for fine-tuning projects)
 WANDB_API_KEY=your_wandb_api_key_here
+
+# Pushover API Keys (for multi-agent notifications)
+PUSHOVER_USER_KEY=your_pushover_user_key_here
+PUSHOVER_APP_TOKEN=your_pushover_app_token_here
 ```
 
 ### **Running Projects**
@@ -86,6 +95,10 @@ python 9_multimodal_chatbot.py
 
 # Example: Run the code converter
 python 11_code_coverter.py
+
+# Example: Run the multi-agent system
+cd "14_Multi_agent_system"
+python gradio_interface.py
 ```
 
 ## 📋 **Project Details**
@@ -121,6 +134,18 @@ python 11_code_coverter.py
 - **Features**: JSONL data preparation, experiment tracking, model evaluation, automated testing
 - **Use Cases**: Domain-specific model adaptation, performance optimization, specialized task training
 
+### **🤖 Multi-Agent Systems (14)**
+- **Multi-Agent Deal Discovery**: Intelligent system with specialized AI agents for autonomous deal hunting
+- **Technologies**: OpenAI API, Modal cloud deployment, ChromaDB, Scikit-learn ensemble models
+- **Architecture**: Planning Agent orchestrates Scanner, Ensemble, and Messaging agents
+- **Key Features**: 
+  - **Ensemble Modeling**: Combines 3 pricing agents (Fine-tuned LLM, RAG, Random Forest)
+  - **Real-time Monitoring**: Gradio web interface with live logging and auto-refresh
+  - **Autonomous Operation**: Continuous RSS feed monitoring and deal analysis
+  - **Smart Notifications**: Pushover integration for high-value deal alerts
+  - **Persistent Memory**: Tracks discovered opportunities across sessions
+- **Use Cases**: Automated deal hunting, e-commerce monitoring, pricing analysis, market research
+
 ## 🔧 **Technical Highlights**
 
 ### **Advanced Features**
@@ -130,6 +155,8 @@ python 11_code_coverter.py
 - **Code Compilation**: Cross-platform C++ compilation with optimization
 - **Async Processing**: Efficient handling of concurrent operations
 - **Error Handling**: Robust error management and user feedback
+- **Multi-Agent Coordination**: Intelligent agent orchestration and ensemble modeling
+- **Cloud Deployment**: Modal-based scalable inference for fine-tuned models
 
 ### **Performance Optimizations**
 - **Compiler Detection**: Automatic toolchain detection (GCC, Clang++, MSVC)
@@ -137,6 +164,8 @@ python 11_code_coverter.py
 - **Vector Embeddings**: Efficient document chunking and similarity search
 - **Model Comparison**: Claude vs CodeQwen performance analysis
 - **Optimization Flags**: M1/M2 specific compiler optimizations
+- **Ensemble Learning**: Linear regression for optimal agent weight learning
+- **Lazy Loading**: Efficient agent initialization and resource management
 
 ## 📚 **Learning Outcomes**
 
@@ -148,6 +177,9 @@ This collection demonstrates proficiency in:
 - **Cross-Platform Development**: Multi-OS compatibility
 - **Performance Engineering**: Code optimization and compilation
 - **User Experience**: Intuitive interfaces and error handling
+- **Multi-Agent Systems**: Agent coordination, ensemble modeling, and autonomous workflows
+- **Cloud Deployment**: Scalable inference with Modal and distributed systems
+- **Machine Learning**: Ensemble methods, model training, and evaluation
 
 ## 🔄 **Future Enhancements**
 
@@ -158,6 +190,9 @@ This collection demonstrates proficiency in:
 - [ ] Performance benchmarking suite
 - [ ] API rate limiting and caching
 - [ ] Multi-language support
+- [ ] Advanced multi-agent coordination patterns
+- [ ] Real-time streaming interfaces
+- [ ] Mobile-responsive web applications
 
 ## 📄 **License**
 
